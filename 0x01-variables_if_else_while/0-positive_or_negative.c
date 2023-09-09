@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main = etry point
+* main - etry point
 *
 * Description: false or true validation
 *
