@@ -16,7 +16,7 @@ int main(void)
 	while (i < 9)
 	{
 		printf("%i", i);
-		putchar('.');
+		putchar(',');
 		putchar(' ');
 		i++;
 	}
