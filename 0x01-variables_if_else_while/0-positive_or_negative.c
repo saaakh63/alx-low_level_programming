@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* positive_or_negative
-* positive_or_negative
-*positive_or_negative
+/**
+* main = etry point
+*
+* Description: false or true validation
+*
+*Return: 0 (success)
 */
 
 int main(void)
