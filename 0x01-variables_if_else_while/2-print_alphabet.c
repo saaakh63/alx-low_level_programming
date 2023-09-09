@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
 * main - entry point
@@ -10,6 +12,7 @@ int main(void)
 {
 	char c = 'a';
 
+	srand(time(0));
 	while (c <= 'z')
 	{
 		putchar(c);
