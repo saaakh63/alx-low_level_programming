@@ -11,9 +11,11 @@
 int main(void)
 {
 	srand(time(0));
-	for (int i = 0; i < 9; i++)
+	int i,j;
+
+	for (i = 0; i < 9; i++)
 	{
-		for (int j = i + 1; j <= 9; j++)
+		for (j = i + 1; j <= 9; j++)
 		{
 			printf("%i%i ;", i, j);
 		}
