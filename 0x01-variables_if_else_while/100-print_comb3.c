@@ -11,7 +11,7 @@
 int main(void)
 {
 	srand(time(0));
-	int i,j;
+	int i, j;
 
 	for (i = 0; i < 9; i++)
 	{
