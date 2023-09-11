@@ -17,7 +17,7 @@ int main(void)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
-			printf("%i%i ;", i, j);
+			printf("%i%i ,", i, j);
 		}
 	}
 	printf("\n");
