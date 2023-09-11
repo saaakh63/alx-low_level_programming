@@ -18,13 +18,15 @@ int main(void)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
+			putchar(i + 48);
+			putchar(j + 48);
 			if (i == 8 && j == 9)
 			{
-				printf("%i%i", i, j);
 			}
 			else
 			{
-				printf("%i%i ,", i, j);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
