@@ -12,14 +12,20 @@ int main(void)
 {
 	srand(time(0));
 	int i;
-
 	int j;
 
 	for (i = 0; i < 9; i++)
 	{
 		for (j = i + 1; j <= 9; j++)
 		{
-			printf("%i%i ,", i, j);
+			if (i == 8 && j == 9)
+			{
+				printf("%i%i", i, j);
+			}
+			else
+			{
+				printf("%i%i ,", i, j);
+			}
 		}
 	}
 	printf("\n");
