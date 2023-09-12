@@ -8,9 +8,8 @@
 *
 *Return: 0 (success)
 */
-int main(void)
+int main()
 {
-	srand(time(0));
 	int i;
 	int j;
 
