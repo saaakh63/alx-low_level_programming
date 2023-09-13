@@ -6,7 +6,7 @@
 *
 *Return: 0 (success)
 */
-void jack_bauer(void)
+int jack_bauer(void)
 {
 	int i, j, k, z;
 
@@ -31,6 +31,7 @@ void jack_bauer(void)
 				}
 			}
 		}
-	}
+	
+	return (0);}
 }
 
