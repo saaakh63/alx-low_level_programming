@@ -6,7 +6,7 @@
 *
 *Return: 0 (success)
 */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int i, j, k, z;
 
@@ -24,9 +24,9 @@ int jack_bauer(void)
 					_putchar((k) + 48);
 					_putchar((z) + 48);
 					if (i == 2 && j == 3 && k == 5 && z == 9)
-					{           
+					{
 						return (0);
-					}                   
+					}
 					_putchar('\n');
 				}
 			}
