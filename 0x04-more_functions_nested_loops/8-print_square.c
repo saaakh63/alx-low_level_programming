@@ -22,4 +22,5 @@ void print_square(int c)
 			}
 			_putchar('\n');
 		}
+	}
 }
