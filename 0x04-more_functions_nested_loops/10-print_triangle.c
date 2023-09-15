@@ -9,6 +9,7 @@
 void print_triangle(int c)
 {
 	int i, j;
+
 	if (c <= 0)
 		_putchar('\n');
 	else
@@ -17,7 +18,7 @@ void print_triangle(int c)
 		{
 			for (j = 0; j < c; j++)
 			{
-				if (i + j <= c)
+				if ((i + j) <= c)
 					_putchar(' ');
 				else
 					_putchar('#');
