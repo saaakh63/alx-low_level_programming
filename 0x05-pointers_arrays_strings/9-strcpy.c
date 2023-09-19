@@ -8,11 +8,11 @@
 */
 char *_strcpy(char *a, char *b)
 {
-	int i = 0;
+	int i = -1;
 
 	do {
-		a[i] = b[i];
 		i++;
+		a[i] = b[i];
 	} while (b[i] != '\0');
 	return (a);
 }
