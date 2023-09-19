@@ -9,9 +9,14 @@
 void rev_string(char *c)
 {
 	int i = 0, j;
+	char t;
 
 	while (c[i])
 		i++;
 	for (j = 0; j <= i; j++)
+	{
+		t = c[j];
 		c[j] = c[i - 1 - j];
+		c[i - 1 - j] = t;
+	}
 }
