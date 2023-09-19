@@ -11,6 +11,13 @@ void print_array(int *c, int n)
 	int i;
 
 	for (i = 0; i < n; i++)
-		_putchar(c[i] + '0');
+	{
+		_putchar(c[i]);
+		if (i != (n - 1))
+		{
+			_putchar(',');
+			_putchar(' ');
+		}
+	}
 	_putchar('\n');
 }
