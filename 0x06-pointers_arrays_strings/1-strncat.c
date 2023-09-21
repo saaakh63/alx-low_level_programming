@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-* *_strcat - entry point
+* *_strncat - entry point
 *
 * @dest: false or true validation
 * @src: gggg
 * @n: gggg
 *Return: 0 (success)
 */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
