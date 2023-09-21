@@ -4,11 +4,12 @@
 *
 * @dest: false or true validation
 * @src: gggg
+*
 *Return: 0 (success)
 */
 char *_strcat(char *dest, char *src)
 {
-	int i ,j;
+	int i, j;
 
 	i = 0;
 	while (dest[i])
