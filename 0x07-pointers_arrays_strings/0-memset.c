@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _memset - entry point
+* *_memset - entry point
 *
 * @s: false or true validation
 * @b: ddddddd
@@ -14,7 +14,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	while (n > 0)
 	{
-		&s[x] = b;
+		s[x] = b;
 		x++;
 		n--;
 	}
