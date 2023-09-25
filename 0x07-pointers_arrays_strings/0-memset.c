@@ -5,6 +5,7 @@
 * @s: false or true validation
 * @b: ddddddd
 * @n: fffffffff
+*
 *Return: 0 (success)
 */
 char *_memset(char *s, char b, unsigned int n)
@@ -13,7 +14,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	while (n > 0)
 	{
-		s[x] = b;
+		&s[x] = b;
 		x++;
 		n--;
 	}
