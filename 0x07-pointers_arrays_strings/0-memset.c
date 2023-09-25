@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_memset - entry point
+* _memset - entry point
 *
 * @s: false or true validation
 * @b: ddddddd
