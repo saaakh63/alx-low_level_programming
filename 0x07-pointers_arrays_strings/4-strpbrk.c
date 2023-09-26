@@ -9,6 +9,7 @@
 char *_strpbrk(char *s, char *c)
 {
 	int i = 0, j = 0;
+	char *x;
 
 	while (s[i])
 	{
@@ -16,7 +17,10 @@ char *_strpbrk(char *s, char *c)
 		while (c[i])
 		{
 			if (c[j] == s[i])
-				return (&s[i]);
+			{
+				x = &s[i];
+				return (x);
+			}
 			j++;
 		}
 		i++;
