@@ -5,6 +5,7 @@
 *
 * @a: false or true validation
 * @n: dddd
+*
 *Return: 0 (success)
 */
 void print_diagsums(int *a, int n)
