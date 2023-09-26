@@ -9,15 +9,17 @@
 char *_strstr(char *s, char *c)
 {
 
-	int i = 0, j = 0, n = 0, z = 0;
-	char *x;
+	int i = 0, j = 0, n = 0, z = 0, w = 0;
 
 	while (c[j])
 		j++;
+
 	while (s[i])
 	{
 		n = 0;
-		while (c[n])
+		w = j;
+		z = 0;
+		while (w--)
 		{
 			if (c[n] != s[i])
 			{
@@ -30,5 +32,5 @@ char *_strstr(char *s, char *c)
 			return (c);
 		i++;
 	}
-	return (0);
+	return ('\0');
 }
