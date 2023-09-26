@@ -14,7 +14,7 @@ char *_strpbrk(char *s, char *c)
 	while (s[i])
 	{
 		j = 0;
-		while (c[i])
+		while (c[j])
 		{
 			if (c[j] == s[i])
 			{
