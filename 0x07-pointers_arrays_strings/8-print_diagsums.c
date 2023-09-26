@@ -13,7 +13,7 @@ void print_diagsums(int *a, int n)
 	for (i = 0; i < n; i++)
 	{
 		sum += a[i][i];
-		sum1 += a[n - i - 1];
+		sum1 += a[n - i - 1][n - i - 1];
 	}
 	printf("%d, ", sum);
  	printf("%d\n", sum1);
