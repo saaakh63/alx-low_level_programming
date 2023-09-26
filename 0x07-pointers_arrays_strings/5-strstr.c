@@ -12,7 +12,7 @@ char *_strstr(char *s, char *c)
 	int i = 0, j = 0, n = 0, z = 0;
 	char *x;
 
-	while (c[j)
+	while (c[j])
 		j++;
 	while (s[i])
 	{
