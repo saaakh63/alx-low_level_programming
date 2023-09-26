@@ -1,8 +1,9 @@
 #include "main.h"
+#include<stdio.h>
 /**
 * print_diagsums - entry point
 *
-* @c: false or true validation
+* @a: false or true validation
 * @n: dddd
 *Return: 0 (success)
 */
