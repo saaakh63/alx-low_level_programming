@@ -3,7 +3,7 @@
 * _pow_recursion - entry point
 *
 * @x: false or true validation
-* @: ddddd
+* @y: ddddd
 *Return: 0 (success)
 */
 int _pow_recursion(int x, int y)
