@@ -9,5 +9,6 @@
 */
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n));
+	double x = n;
+	return (sqrt(x));
 }
