@@ -10,7 +10,7 @@
 int s(int n, int v);
 int _sqrt_recursion(int n)
 {
-        return (s(n, 1));
+	return (s(n, 1));
 }
 /**
 * s - entry point
@@ -21,10 +21,10 @@ int _sqrt_recursion(int n)
 */
 int s(int n, int v)
 {
-        if (v * v == n)
-                return (n);
-        else if (v *v < n)
-                return (s(n, v + 1));
-        else
-                return (-1);
+	if (v * v == n)
+		return (v);
+	else if (v *v < n)
+		return (s(n, v + 1));
+	else
+		return (-1);
 }
