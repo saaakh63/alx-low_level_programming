@@ -4,7 +4,7 @@
 * _sqrt_recursion - entry point
 *
 * @n: false or true validation
-*
+* @v: gggg
 *Return: 0 (success)
 */
 int s(int n, int v);
@@ -23,7 +23,7 @@ int s(int n, int v)
 {
 	if (v * v == n)
 		return (v);
-	else if (v *v < n)
+	else if (v * v < n)
 		return (s(n, v + 1));
 	else
 		return (-1);
