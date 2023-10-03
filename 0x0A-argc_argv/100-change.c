@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * main-prints - entry point
-*to make change 
+*to make change
 * @argc: false or true validation
 * @argv: ggg
 *Return: 0 (success)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", l);
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		return (1);
