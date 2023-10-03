@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		s += atio(argv[argc]);
+		s += atoi(argv[argc]);
 	}
 	printf("%d\n", s);
 	return (0);
