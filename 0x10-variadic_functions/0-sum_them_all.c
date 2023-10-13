@@ -2,7 +2,7 @@
 
 /**
  * sum_them_all - returns the sum of all its parameters.
- * @c: fffffffff 
+ * @c: fffffffff
  *
  * Return: sum of its parameters.
  */
