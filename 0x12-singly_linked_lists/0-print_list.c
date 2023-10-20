@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdio.h>
 /**
-* rint_list - entry point
+* print_list - entry point
 *
 * @h: false or true validation
-*
+* Description: false or true validation
 *Return: 0 (success)
 */
 size_t print_list(const list_t *h)
